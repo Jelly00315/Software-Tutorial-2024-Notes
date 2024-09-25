@@ -60,9 +60,14 @@ int main() {
   
   int result[3][2] = {0};
   
-  // your code starts here
-  
-  // your code ends here
+  for(int i=0;i<3;i++)
+ {
+     for(int j=0;j<3;j++)
+     {
+         result[i][j]=matrix_A[i][j]+matrix_B[i][j];
+     }
+ }
+
   
   printf("A = \n");
   display_matrix(matrix_A, 3);
